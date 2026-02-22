@@ -9,3 +9,6 @@
  * Reads digital input from IR sensor
  * and detects obstacle presence.
  */
+
+int irPin=2;
+int irState=0;
