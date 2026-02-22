@@ -14,6 +14,12 @@ int irPin=2;
 int irState=0;
 
 void setup() {
-    PinMode(irPin,INPUT);
+    pinMode(irPin,INPUT);
     Serial.begin(9600);
+}
+
+void loop() {
+    irState=digitalRead(irPin);
+
+
 }
