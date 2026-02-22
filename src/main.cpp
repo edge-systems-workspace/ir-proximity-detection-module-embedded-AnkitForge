@@ -28,4 +28,5 @@ void loop() {
         Serial.println("Obstacle Not Detected");
     }
     delay(500);
+
 }
