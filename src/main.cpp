@@ -21,5 +21,11 @@ void setup() {
 void loop() {
     irState=digitalRead(irPin);
 
-
+    if (irState==LOW) {
+        Serial.print("Obstacle detected");
+    }
+    else {
+        Serial.println("Obstacle Not Detected");
+    }
+    delay(500);
 }
